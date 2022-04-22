@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BagDéx - Jornada Brasil</title>
+
+    <link rel="shortcut icon" href="src/images/logo.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/cartao.css" />
+    <link rel="stylesheet" href="src/css/list.css" />
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="pokedex">
+        <!-- Inicio dos icones do pokemons -->
+        <nav class="listagem">
+          <ul>
+            <!-- Casimiro -->
+            <li class="pokemon ativo" id="casimiro">
+              <span>Casimirox</span>
+
+              <img
+                src="src/images/gym-leader/001-casimiro/casimiro-cabeca.png"
+                alt="cabeça do casimiro"
+              />
+            </li>
+            <!-- Fim -->
+
+            <!-- Luva de Pedreiro -->
+            <li class="pokemon" id="luvadepedreiro">
+              <img
+                src="src/images/gym-leader/002-luvadepedreiro/luvaCabeça.jpg"
+                alt="imagem de ícone da cabeça do lider de ginasio luva de pedreiro"
+                srcset=""
+              />
+              <span>Luva de Pedreiro</span>
+            </li>
+            <!-- Fim -->
+
+            <!-- Vicência -->
+            <li class="pokemon" id="vicencia">
+              <img
+                src="src/images/gym-leader/003-VicenciaSantos/VicenciaCabeca.jpg"
+                alt="imagem de ícone da cabeça de Vicência Santos"
+                srcset=""
+              />
+              <span>Vicência Santos</span>
+            </li>
+            <!-- Fim -->
+
+            <!-- Eliana -->
+            <li class="pokemon" id="eliana">
+              <img
+                src="src/images/gym-leader/004-eliana/eliana-cabeca.jpg"
+                alt="imagem de ícone da cabeça d eliana"
+                srcset=""
+              />
+              <span>Eliana</span>
+            </li>
+            <!-- Fim -->
+
+            <!-- Dragonite -->
+            <li class="pokemon" id="dragonite">
+              <img
+                src="src/images/cabeca.png"
+                alt="imagem de ícone da cabeça do pokemon Dragonite"
+                srcset=""
+              />
+              <span>Dragonite</span>
+            </li>
+            <!-- Fim -->
+          </ul>
+        </nav>
+        <div class="cards-pokemon">
+          <!-- Card Casimiro -->
+          <div class="card-pokemon open type-water" id="card-casimiro">
+            <div class="card-top">
+              <div class="details">
+                <h2 class="name">Casimiro</h2>
+                <span>#001</span>
+              </div>
+              <span class="type">Lider de Ginásio</span>
+
+              <div class="card-image">
+                <img
+                  src="src/images/gym-leader/001-casimiro/casimiro-full.png"
+                  alt="Imagem do Casimiro"
+                  srcset=""
+                />
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="status">
+                <!-- Antigo Status -->
+                <h3>Equipe</h3>
+                <ul>
+                  <li>Doncorvo</li>
+                  <li>Micorado</li>
+                  <li>Benja</li>
+                  <li>Caralata</li>
+                  <li>Elecbol</li>
+                  <li>Brazorb</li>
+                </ul>
+              </div>
+              <div class="abiliity">
+                <h3>Ginásio</h3>
+                <ul>
+                  <li>São Januário</li>
+                  <li>Rio de Janeiro, RJ</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Card Casimiro -->
+
+          <!-- Card Luva de Pedreiro -->
+          <div class="card-pokemon type-electric" id="card-luvadepedreiro">
+            <div class="card-top">
+              <div class="details">
+                <h2 class="name">Luva de Pedreiro</h2>
+                <span>#002</span>
+              </div>
+              <span class="type">Lider de Ginásio</span>
+              <div class="card-image">
+                <img
+                  src="src/images/gym-leader/002-luvadepedreiro/luvadepedreiro-removebg-preview.png"
+                  alt="Imagem do bulbasaur"
+                  srcset=""
+                />
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="status">
+                <h3>Equipe</h3>
+                <ul>
+                  <li>Elecbol</li>
+                  <li>Doncorvo</li>
+                  <li>Jondi</li>
+                  <li>Tupin</li>
+                  <li>Monstruz</li>
+                  <li>Lutanduá</li>
+                </ul>
+              </div>
+              <div class="abiliity">
+                <h3>Ginásio</h3>
+                <ul>
+                  <li>Arena Fonte Nova</li>
+                  <li>Salvador, BA</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Card Luva de Pedreiro -->
+
+          <!-- Card Vicência Santos -->
+          <div class="card-pokemon type-fire" id="card-vicencia">
+            <div class="card-top">
+              <div class="details">
+                <h2 class="name">Vicência Santos</h2>
+                <span>#003</span>
+              </div>
+              <span class="type">Lider de Ginásio</span>
+              <div class="card-image">
+                <img
+                  src="src/images/gym-leader/003-VicenciaSantos/VicenciaCorpo-removebg-preview.png"
+                  alt="Imagem da lider de ginásio vicência santos"
+                  srcset=""
+                />
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="status">
+                <h3>Equipe</h3>
+                <ul>
+                  <li>Josoré</li>
+                  <li>Suculeste</li>
+                  <li>Capivara</li>
+                  <li>Ararazul</li>
+                  <li>Micorado</li>
+                  <li>Caralata</li>
+                </ul>
+              </div>
+              <div class="abiliity">
+                <h3>Ginásio</h3>
+                <ul>
+                  <li>Animais Fantásticos</li>
+                  <li>Hogwarts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Card Vicência Santos -->
+
+          <!-- Card Eliana -->
+          <div class="card-pokemon type-water" id="card-eliana">
+            <div class="card-top">
+              <div class="details">
+                <h2 class="name">Eliana</h2>
+                <span>#004</span>
+              </div>
+              <span class="type">Lider de Ginásio</span>
+              <div class="card-image">
+                <img
+                  src="src/images/gym-leader/004-eliana/eliana-corpo.png"
+                  alt="Imagem da Eliana"
+                  srcset=""
+                />
+              </div>
+            </div>
+            <div class="card-info">
+              <div class="status">
+                <h3>Equipe</h3>
+                <ul>
+                  <li>Ursocoton</li>
+                  <li>Volpiniquim</li>
+                  <li>Biscolacha</li>
+                  <li>Besarela</li>
+                  <li>Caramelo</li>
+                  <li>Brabuleta</li>
+                </ul>
+              </div>
+              <div class="abiliity">
+                <h3>Ginásio</h3>
+                <ul>
+                  <li>Bom Dia & Cia</li>
+                  <li>SBT</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Card Eliana -->
+        </div>
+
+        <!-- Inicio dos icones do pokemons -->
+        <nav class="listagem">
+          <ul>
+            <!-- Casimiro -->
+            <li class="pokemon ativo" id="casimiro">
+              <img
+                src="src/images/gym-leader/001-casimiro/casimiro-cabeca.png"
+                alt="cabeça do casimiro"
+              />
+              <span>Casimiro</span>
+            </li>
+            <!-- Fim -->
+
+            <!-- Luva de Pedreiro -->
+            <li class="pokemon" id="luvadepedreiro">
+              <img
+                src="src/images/gym-leader/002-luvadepedreiro/luvaCabeça.jpg"
+                alt="imagem de ícone da cabeça do lider de ginasio luva de pedreiro"
+                srcset=""
+              />
+              <span>Luva de Pedreiro</span>
+            </li>
+            <!-- Fim -->
+
+            <!-- Vicência -->
+            <li class="pokemon" id="vicencia">
+              <img
+                src="src/images/gym-leader/003-VicenciaSantos/VicenciaCabeca.jpg"
+                alt="imagem de ícone da cabeça de Vicência Santos"
+                srcset=""
+              />
+              <span>Vicência Santos</span>
+            </li>
+            <!-- Fim -->
+
+            <!-- Eliana -->
+            <li class="pokemon" id="eliana">
+              <img
+                src="src/images/gym-leader/004-eliana/eliana-cabeca.jpg"
+                alt="imagem de ícone da cabeça d eliana"
+                srcset=""
+              />
+              <span>Eliana</span>
+            </li>
+            <!-- Fim -->
+
+            <!-- Dragonite -->
+            <li class="pokemon" id="dragonite">
+              <img
+                src="src/images/cabeca.png"
+                alt="imagem de ícone da cabeça do pokemon Dragonite"
+                srcset=""
+              />
+              <span>Dragonite</span>
+            </li>
+            <!-- Fim -->
+          </ul>
+        </nav>
+      </div>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
